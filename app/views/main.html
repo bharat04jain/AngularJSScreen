@@ -1,0 +1,23 @@
+<div class="userTopheader">
+  <div class="shoppingPalLogo"><img ng-src="images/logo.png"></div>
+  <div class="shoppingPalUserDetails">
+    <div class="logingDetails"><span class="loginUserTopHeading">You are logged in as a <span ng-bind="LoginUser"> </span><a ng-href="">LOGOUT</a></span>
+    <div class="LogoutHomePage">
+      <input type="button" class="btn btn-primary backToHome" value ="BACK TO HOME">
+    </div>
+  </div>
+  <div class="userNoteDetails">Note: Drag user in to store /Tap user to change settings</div>
+  <div class="managerUser"> Manage Users</div>
+  <div class="allUsersDetails">
+    <div class="userdetails" ng-repeat="user in completeList" ng-click ="getStoreDetails(user.user)">
+      <img src="images/user.png">
+      <div ng-bind="user.name"></div>
+      <div>User short info here</div>
+      <div ng-bind="user.email"></div>
+    </div>
+  </div>
+  <div class="userStores"> Stores</div>
+  <div class="storeValue" ng-repeat = "storeValue in storeData">
+    <span ng-bind ="storeValue"></span>
+  </div>
+</div>

@@ -1,0 +1,168 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0;
+}
+/*CSS for User Store Page*/
+.userTopheader{
+   background-color: #354052;
+  width: 800px;
+  height: 120px;
+}
+.shoppingPalLogo{
+    float: left;
+  padding: 30px 20px 30px 15px;
+    width: 380px;
+}
+.loginUserTopHeading{
+    color: #9F9FA7;
+  padding-top: 15px;
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  float: left;
+}
+.loginUserTopHeading span{
+ color: #2A98E3;;
+   margin-right: 10px;
+}
+.loginUserTopHeading a{
+      padding-left: 10px;
+  border-left: 1px solid #fff;
+  color: #DE7F11;
+  cursor: pointer;
+}
+.LogoutHomePage{
+    float: right;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+.backToHome{
+  background-color: #1F899F;
+}
+.logingDetails{
+  height: 135px;
+}
+.userNoteDetails{
+  color: #2D88A3;
+  float:right;
+  font-weight: bold;
+    clear: both;
+}
+.managerUser{
+  clear: both;
+  font-weight: bold;
+  font-size: 17px;
+}
+.userdetails {
+    float: left;
+  width: 265px;
+  margin-bottom: 20px;
+}
+.userdetails img{
+  float: left;
+  width: 60px;
+}
+.allUsersDetails{
+    margin-top: 20px;
+}
+.userStores{
+    clear: both;
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+.storeValue{
+    width: 120px;
+  height: 50px;
+  border: 1px dotted #777;
+  background-color: #D7F2F9;
+  color: #697684;
+    width: 120px;
+  height: 50px;
+  border: 1px dotted #777;
+  float: left;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
